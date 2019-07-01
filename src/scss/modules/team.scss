@@ -1,0 +1,23 @@
+.team{
+  padding-top:101px;
+  padding-bottom: 41px;
+  background: white;
+  &__item{
+    padding-bottom: 60px;
+  }
+  &__image{
+    width:100%;
+    margin-bottom:30px;
+  }
+  &__title{
+    @include font("Raleway" sans-serif, 400, black, 22px);
+    margin-bottom:15px;
+  }
+  &__subtitle{
+    @include font("Raleway" sans-serif, 400, red, 13px);
+    margin-bottom: 27px;
+  }
+  &__caption{
+    @include font("Raleway" sans-serif, 400, #6c7279, 14px);
+  }
+}

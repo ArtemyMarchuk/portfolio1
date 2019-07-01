@@ -1,0 +1,23 @@
+.download{
+  background: white;
+  padding: 101px 0;
+  &__title{
+    @include font("Raleway" sans-serif, 300, black, 28px);
+    margin-bottom: 15px;
+  }
+  &__subtitle{
+    @include font("Raleway" sans-serif, bold, black, 13px);
+    margin-bottom: 40px;
+  }
+  &__button{
+    background:#e84545;
+    border-radius: 1px;
+    @include font("Raleway" sans-serif, 600, white, 13px);
+    border:none;
+    padding:18px 54px;
+    transition:0.3s;
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+}

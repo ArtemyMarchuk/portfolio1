@@ -1,0 +1,25 @@
+// header style
+.header{
+  position:relative;
+  z-index:999;
+  opacity:1!important;
+  *{
+    opacity:1!important;
+  }
+  &__img{
+    height:23px;
+  }
+  &__link{
+    padding: 8px 30px !important;
+    @include font("Raleway" sans-serif, bold, white, 13px);
+  }
+  &__nav{
+    position: absolute;
+    margin:auto;
+    left:50%;
+    padding-top:38px;
+    padding-bottom: 38px;
+    background: none!important;
+    border-bottom:1px solid #505268;
+  }
+}

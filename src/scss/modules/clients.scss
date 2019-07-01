@@ -1,0 +1,33 @@
+.clients{
+  &__indicator{
+    width:12px!important;
+    height:12px!important;
+    border-radius: 50%;
+  }
+  &__indicators{
+    bottom:-10px;
+    left:600px;
+  }
+  &__carousel{
+    background:#53354a;
+    height:200%;
+  }
+  &__speech{
+    @include font("Cardo" serif, 400, white, 36px);
+    width:555px;
+    padding-left: 85px;
+    text-align: left;
+  }
+  &__caption{
+    @include font("Raleway" sans-serif, bold, white, 13px);
+    width:555px;
+    padding-left: 85px;
+    text-align: left;
+  }
+}
+.carousel-caption{
+  left:50%;
+  height:100%;
+  top:10%;
+  display: block!important;
+}
